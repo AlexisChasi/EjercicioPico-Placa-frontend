@@ -1,0 +1,38 @@
+<div class="flex justify-content-center align-items-center min-h-screen w-full">
+    <p-card header="Formulario de Consulta" class="w-10">
+      <form [formGroup]="formRestriction" class="flex flex-column gap-2" (ngSubmit)="consultar()">
+        
+        <!-- Campo para la Placa -->
+        <div class="field">
+          <label for="licensePlate">Placa</label>
+          <input
+            id="licensePlate"
+            type="text"
+            formControlName="licensePlate"
+            class="text-base text-color surface-overlay p-2 border-1 border-solid surface-border border-round appearance-none outline-none focus:border-primary w-full"
+            placeholder="Ingrese la placa (7 caracteres)"
+          />
+        </div>
+        
+        <!-- Campo para la Fecha y Hora -->
+        <div class="field">
+          <label for="fechaConsulta">Fecha y Hora</label>
+          <input
+            id="fechaConsulta"
+            type="datetime-local"
+            formControlName="fechaConsulta"
+            [min]="minDateTime"
+            class="text-base text-color surface-overlay p-2 border-1 border-solid surface-border border-round appearance-none outline-none focus:border-primary w-full"
+            required
+          />
+        </div>
+        
+        <!-- Botón Consultar -->
+        <div class="flex gap-2">
+          <p-button label="Consultar" type="submit"></p-button>
+        </div>
+        
+      </form>
+    </p-card>
+  </div>
+  

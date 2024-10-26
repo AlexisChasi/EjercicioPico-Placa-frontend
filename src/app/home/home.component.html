@@ -1,0 +1,36 @@
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 p-4">
+    @for (car of cars; track car.id) {
+        <p-card header="Auto: {{car.id}}" [style]="{ width: '360px' }" class="border-1 border-gray-300 shadow-2">
+            <ng-template pTemplate="header">
+                <img alt="Car Image" src="https://img.freepik.com/vector-gratis/coche-deportivo-azul-aislado-vector-blanco_53876-67354.jpg?semt=ais_hybrid" class="w-full h-40 object-cover" />
+            </ng-template>
+            <div class="p-3">
+                <p><strong>Dueño:</strong> {{car.owner}}</p>
+                <p><strong>Placa:</strong> {{car.licensePlate}}</p>
+                <p><strong>Color:</strong> {{car.color}}</p>
+                <p><strong>Modelo:</strong> {{car.model}}</p>
+                <p><strong>Chasis:</strong> {{car.chassis}}</p>
+            </div>
+            <ng-template pTemplate="footer">
+                <div class="flex justify-between p-2">
+                    <div class="flex gap-2 w-full">
+                        <p-button (onClick)="deleteCar(car.id)" label="Borrar" severity="danger" styleClass="flex-1" />
+                        <a routerLink="car-form/{{car.id}}" class="p-button p-button-secondary flex-1" style="font-size: 0.875rem; padding: 0.5rem;">
+                            Editar
+                        </a>
+                        <a routerLink="restriction-form" class="p-button p-button-info flex-1" style="font-size: 0.875rem; padding: 0.5rem;">
+                            Consultar Restricción
+                        </a>
+                    </div>
+                </div>
+            </ng-template>
+        </p-card>
+    }
+    @empty {
+        <p class="text-center col-span-full">No existen Autos</p>
+    }
+</div>
+
+<a routerLink="car-form/new" class="p-button p-button-success font-bold mt-4">
+    Ingresar Auto
+</a>

@@ -1,1 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+a {
+    text-decoration: none;
+}
+.p-button-secondary {
+    font-size: 0.875rem; /* Tamaño de fuente más pequeño */
+    padding: 0.5rem 1rem; /* Padding reducido */
+    min-width: 80px; /* Ancho mínimo si deseas que todos tengan el mismo ancho */
+}
+.p-button-info {
+    font-size: 0.875rem; /* Tamaño de fuente más pequeño */
+    padding: 0.5rem 1rem; /* Padding reducido */
+    min-width: 80px; /* Ancho mínimo si deseas que todos tengan el mismo ancho */
+}
