@@ -29,3 +29,6 @@ Una vez que las dependencias estén instaladas, inicia el servidor de desarrollo
 # 5. Accede a la aplicación
 
 - Después de ejecutar ng serve, abre tu navegador y navega a `http://localhost:4200/` para ver la aplicación en ejecución.
+- Es importante tener en ejecucion el back end para poder utilizar el front end y poder utilizar sin problemas la applicacion
+
+
