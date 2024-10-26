@@ -31,4 +31,29 @@ Una vez que las dependencias estén instaladas, inicia el servidor de desarrollo
 - Después de ejecutar ng serve, abre tu navegador y navega a `http://localhost:4200/` para ver la aplicación en ejecución.
 - Es importante tener en ejecucion el back end para poder utilizar el front end y poder utilizar sin problemas la applicacion
 
+# EN EJECUCION
+# SIN AUTOS CREADOS
 
+![image](https://github.com/user-attachments/assets/609443ae-2d7d-43f2-a6ac-df223649888c)
+
+# FORMULARIO DE CREACION
+
+![image](https://github.com/user-attachments/assets/a35b4c2d-260e-44f6-bee8-e34dca20da97)
+
+# CREACION 
+
+![image](https://github.com/user-attachments/assets/6d8cc1c9-2e0a-4817-9de4-7da3fe8ee8d9)
+
+# BORRAR Y EDITAR 
+
+![image](https://github.com/user-attachments/assets/216f2a96-0406-40b3-9571-71d8b432fe15)
+
+# FORMULARIO DE EDITAR 
+
+![image](https://github.com/user-attachments/assets/2794125d-7085-4cdf-b848-f5c1db8f6e9d)
+
+![image](https://github.com/user-attachments/assets/ba4e8bd3-aec4-4a74-9e5e-8fcf6bb3e23b)
+
+# CONSULTAR RESTRICCION
+
+![image](https://github.com/user-attachments/assets/a836758a-c2f0-4d43-89a9-fa3850c1b56f)
