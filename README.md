@@ -1,6 +1,6 @@
 # FrontendAutos
 
--este proyecyo esta hecho con angular version 18.2.9. para isntalarlo se necesita ejecutar el siguiente comando npm install -g @angular/cli     
+- este proyecyo esta hecho con angular version 18.2.9. para isntalarlo se necesita ejecutar el siguiente comando npm install -g @angular/cli     
 - tambien  es necesario tener instalado la ultima version de node LTS
   
 ![image](https://github.com/user-attachments/assets/df0921d4-2443-4d8a-93dd-671901ed8a98)
